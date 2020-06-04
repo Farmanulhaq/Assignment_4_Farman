@@ -210,4 +210,31 @@ only screen and (min-device-pixel-ratio: 0.5){
     position: relative;
     right: 100px;
 }
+    
+    /* ------------------------------back to top button------------------------------------------ */
+
+.back-to-top {
+    background: none;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 110px;
+    height: 110px;
+    z-index: 100;
+    display: none;
+    text-decoration: none;
+    color: #fc7700;
+    background-color: transparent;
+    opacity: 0.5;
+}
+
+.back-to-top i {
+    font-size: 110px;
+    opacity: 1.0;
+}
+
+.back-to-top:hover{
+    color: red;
+}
 }
