@@ -1,0 +1,213 @@
+
+
+body{
+    background-color:#FCF3CF !important
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden     !important;
+}
+
+/* --------------------------------topbar----------------------------------------- */
+
+
+.topbar{
+    font-size: 14px;
+    font-family:  sans-serif;
+    color: mediumspringgreen;
+}
+.box{
+    margin-top: 3px;
+}
+.currency{
+    border: none;
+}
+.shipping{
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+.sign{
+    margin-left: 5px;
+}
+.acc{
+    margin-top: 3px;
+}
+.pop{
+    background-color: grey !important;
+}
+.currency:hover{
+    cursor: pointer;
+}
+
+/* ----------------------------------logobar-------------------------------- */
+
+.logo{
+    margin-left: -15px;
+    width: 280px;
+}
+.logobar{
+    background-color:gainsboro !important;
+}
+
+/* --------------------------------------navbar-------------------------------------------------------------- */
+
+.nav{
+    color: white !important;
+}
+.nav1{
+    margin-left: 20px;
+}
+.nav:hover{
+    background-color:lightblue;
+    color: black !important;
+}
+.navdrop a:hover{
+    background-color: lightblue;
+}
+
+/* ----------------------------------Slider------------------------------------------------- */
+
+@media screen and (max-width: 950px) {
+    .image{
+        height: 200px;
+    }
+}
+
+
+
+
+/* ------------------------------------Cards-------------------------------------------------- */
+
+.cardp1{
+    width: 300px;
+    height: 360px;
+}
+.cardp1:hover{
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1.3); 
+  z-index: 1;
+  cursor: pointer;
+  color: blueviolet;
+}
+.cardp{
+    text-align: center;
+}
+
+/* ------------------------------------Trending------------------------------------------------- */
+
+.cardp2{
+    width: 200px;
+    height: 330px;
+}
+.cardp2:hover{
+    border: solid blueviolet;
+    cursor: pointer;
+    color: blueviolet;
+}
+.amount{
+    color: green !important;
+}
+
+/* ---------------------------------Footer------------------------------------------------------ */
+
+.socialimg{
+    margin-right: 20px;
+}
+#footer{
+    float:left;
+padding:15px;
+min-width:100%;
+}
+.socialimg:hover{
+    -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1.5); 
+  z-index: 1;
+  background-color: blueviolet;
+  border-radius: 5px;
+}
+
+
+
+/* ------------------------------back to top button------------------------------------------ */
+
+.back-to-top {
+    background: none;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 110px;
+    height: 110px;
+    z-index: 100;
+    display: none;
+    text-decoration: none;
+    color: #fc7700;
+    background-color: transparent;
+    opacity: 0.5;
+}
+
+.back-to-top i {
+    font-size: 110px;
+    opacity: 1.0;
+}
+
+.back-to-top:hover{
+    color: red;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+/* @media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+} */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 0.5){
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+  .cardp1
+  {
+      text-align: center;
+      position: relative;
+      right: 70px;
+  }
+
+  .cardp2
+  {
+    text-align: center;
+    position: relative;
+    right: 70px;
+}
+.logo{
+    width: 210px;
+    position: relative;
+    top: 10px;
+}
+.num{
+    position: relative;
+    right: 100px;
+}
+}
